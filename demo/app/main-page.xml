@@ -1,0 +1,23 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" xmlns:ui="nativescript-shine-button">
+  <GridLayout columns="*,*" rows="*,*">
+    <ui:ShineButton col="0" row="0" shineSize="0" height="80" width="80"
+                    margin="20" src="customicon" color="gray" fillColor="red" allowRandomColor="false"
+                    animDuration="1" bigShineColor="gold" smallShineColor="red" enableFlashing="false"
+                    shineCount="7" shineTurnAngle="20" shineDistanceMultiple="1.2" smallShineOffsetAngle="20"/>
+
+    <ui:ShineButton col="0" row="1" shineSize="0" height="80" width="80"
+                    margin="20" src="customicon" color="black" fillColor="orange" allowRandomColor="true"
+                    animDuration="2" bigShineColor="orange" smallShineColor="black" enableFlashing="false"
+                    shineCount="10" shineTurnAngle="20" shineDistanceMultiple="1.3" smallShineOffsetAngle="30"/>
+
+    <ui:ShineButton col="1" row="0" shineSize="0" height="80" width="80"
+                    margin="20" src="customicon" color="gray" fillColor="blue" allowRandomColor="false"
+                    animDuration="1" bigShineColor="blue" smallShineColor="green" enableFlashing="true"
+                    shineCount="12" shineTurnAngle="45" shineDistanceMultiple="1.5" smallShineOffsetAngle="20"/>
+
+    <ui:ShineButton col="1" row="1" shineSize="0" height="80" width="80"
+                    margin="20" src="customicon" color="red" fillColor="green" allowRandomColor="true"
+                    animDuration="1" bigShineColor="blue" smallShineColor="orange" enableFlashing="true"
+                    shineCount="22" shineTurnAngle="45" shineDistanceMultiple="1.5" smallShineOffsetAngle="30"/>
+  </GridLayout>
+</Page>

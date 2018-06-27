@@ -1,0 +1,9 @@
+repositories {
+    jcenter()
+    google()
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile 'com.github.prscX:ShineButton:0.2.1'
+}
