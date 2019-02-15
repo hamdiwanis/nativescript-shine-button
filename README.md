@@ -21,7 +21,7 @@ see the demo project for more info.
 
 ## Angular
 
-Add this to app.module.ts so you can use a Gradient tag in the view:
+Add this to app.module.ts so you can use a ShineButton tag in the view:
 
 ```
 import { registerElement } from "nativescript-angular";
